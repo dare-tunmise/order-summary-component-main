@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(225, 100%, 94%);
+    width: 100%;
+    height: 100vh;
+    background-position: top -200px;
+}
+
+.summary {
+    background-color: white;
+    margin: 200px auto 50px;
+    max-width: 400px;
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.summary img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.summary-content {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.summary-content h2 {
+    color: hsl(223, 47%, 23%);
+}
+
+.summary-content p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 40px;
+    color: hsl(224, 23%, 55%);
+}
+
+.summary-info {
+    display: flex;
+    justify-content: space-between;
+    background: hsl(225, 100%, 98%);
+    margin: 0 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary-info .summary-info-extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+.summary-info img {
+    width: auto;
+}
+
+.summary-info p {
+     color: hsl(223, 47%, 23%);
+}
+
+.summary-info span {
+    color: hsl(224, 23%, 55%);
+}
+
+.summary-info a {
+    margin: auto 0;
+    font-size: 16px;
+}
+
+.summary-info a:hover {
+    text-decoration: none;
+    color: hsl(245, 46%, 50%);
+}
+
+.summary .card button {
+    display: block;
+    background:  hsl(245, 75%, 52%);
+    margin: 30px auto;
+    border: none;
+    outline: none;
+    padding: 15px 10px;
+    width:340px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 8px 8px -1px hsl(245, 75%, 52%);
+    cursor: pointer;
+}
+
+.summary .card button:hover {
+    background:  hsl(245, 46%, 50%);
+}
+
+.cancel {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
